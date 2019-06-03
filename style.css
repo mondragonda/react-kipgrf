@@ -1,0 +1,23 @@
+.App {
+  font-family: 'Arial';
+  display: flex;
+  background-color: lightgrey;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item {
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  flex-direction:column;
+  z-index: 50;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
